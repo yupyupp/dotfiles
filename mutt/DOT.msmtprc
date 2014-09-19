@@ -1,0 +1,33 @@
+account ACCOUNT_1
+host		smtp.domain.com
+port		587
+protocol	smtp
+auth		on
+from		email@domain.com
+user		user@domain.com
+password	****
+tls		on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+
+account ACCOUNT_2
+host		smtp.domain.com
+port		587
+protocol	smtp
+auth		on
+from		email@domain.com
+user		user@domain
+password	****
+tls		on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+
+account ACCOUNT_3
+host		smtp.domain.com
+port		587
+protocol	smtp
+auth		on
+from		email@domain.com
+user		user@domain
+password	****
+tls		on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+

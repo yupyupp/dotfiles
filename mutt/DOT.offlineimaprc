@@ -1,0 +1,56 @@
+[general]
+ui = ttyui
+accounts = ACCOUNT_1,ACCOUNT_2,ACCOUNT_3
+ 
+[Account ACCOUNT_1]
+localrepository		=	ACCOUNT_1-Local
+remoterepository	=	ACCOUNT_1-Remote
+status_backend		=	sqlite
+
+[Repository ACCOUNT_1-Local]
+type			=	Maildir
+localfolders		=	~/Mail/ACCOUNT_1
+status_backend		=	sqlite
+
+[Repository ACCOUNT_1-Remote]
+type			=	IMAP
+remotehost		=	imap.domain.com
+remoteuser		=	user@domain.com
+remotepass		=	****
+sslcacertfile		=	/etc/ssl/certs/ca-certificates.crt
+
+[Account ACCOUNT_2]
+localrepository		=	ACCOUNT_2-Local
+remoterepository	=	ACCOUNT_2-Remote
+status_backend		=	sqlite
+
+[Repository ACCOUNT_2-Local]
+type			=	Maildir
+localfolders		=	~/Mail/ACCOUNT_2
+status_backend		=	sqlite
+
+[Repository ACCOUNT_2-Remote]
+type			=	IMAP
+remotehost		=	imap.domain.com
+remoteuser		=	user@domain.com
+remotepass		=	****
+sslcacertfile		=	/etc/ssl/certs/ca-certificates.crt
+
+[Account ACCOUNT_3]
+localrepository		=	ACCOUNT_3-Local
+remoterepository	=	ACCOUNT_3-Remote
+status_backend		=	sqlite
+
+[Repository ACCOUNT_3-Local]
+type			=	Maildir
+localfolders		=	~/Mail/ACCOUNT_3
+status_backend		=	sqlite
+
+[Repository ACCOUNT_3-Remote]
+type			=	IMAP
+remotehost		=	imap.domain.com
+remoteuser		=	user@domain.com
+remotepass		=	****
+sslcacertfile		=	/etc/ssl/certs/ca-certificates.crt
+
+

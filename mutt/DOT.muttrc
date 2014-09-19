@@ -1,0 +1,44 @@
+## General options
+set header_cache = "~/.cache/mutt"
+set imap_check_subscribed
+set imap_keepalive = 300
+unset imap_passive
+set mail_check = 5
+set timeout = 60
+set edit_headers=yes
+set mailcap_path 	= ~/.mailcap
+
+set editor="vim -c 'set spell spelllang=en' +7"
+
+# Mailbox to load when mutt starts
+set spoolfile = "+ACCOUNT_1/INBOX"
+source ~/.mutt/macros
+source ~/.mutt/ACCOUNT_1
+
+# Defaults 's' location to ~/Mail/Archives.YEAR
+# This removes the mail from the IMAP server and stores it only on your local drive
+save-hook . "+Archives.%[%Y]"
+
+# Change settings when you enter a different folder
+folder-hook ACCOUNT_1* source ~/.mutt/ACCOUNT_1
+folder-hook ACCOUNT_2* source ~/.mutt/ACCOUNT_2
+folder-hook ACCOUNT_3* source ~/.mutt/ACCOUNT_3
+
+# CardDav Address Book
+set query_command="pc_query -m '%s'"
+bind editor <Tab> complete-query
+
+# GnuPG bootstrap
+source ~/.mutt/gpgrc
+set pgp_use_gpg_agent = yes
+set pgp_sign_as = KEY_ID
+set pgp_timeout = 3600
+set crypt_autosign = yes
+set crypt_replyencrypt = yes
+set crypt_verify_sig=yes
+
+# HTML email viewing
+auto_view text/html
+
+# Color scheme
+source ~/.mutt/solarized

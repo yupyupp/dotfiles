@@ -1,0 +1,9 @@
+set from      = "email@domain.com"
+set sendmail  = "/usr/bin/msmtp -a ACCOUNT_2"
+set mbox="+Archives/`date +%Y`"
+set postponed = "+ACCOUNT_2/drafts"
+set record    = "+ACCOUNT_2/sent"
+set signature = "~/.mutt/sigs/ACCOUNT_2"
+set sig_on_top = yes
+
+color status cyan default

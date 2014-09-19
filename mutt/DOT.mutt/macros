@@ -1,0 +1,7 @@
+# Use <esc>+# to switch to ACCOUNT_#
+macro index <esc>1 "c~/Mail/ACCOUNT_1/INBOX<enter>"
+macro index <esc>2 "c~/Mail/ACCOUNT_2/INBOX<enter>"
+macro index <esc>3 "c~/Mail/ACCOUNT_3/INBOX<enter>"
+
+# Refresh the current folder and purge deleted items
+macro index <f5> "$<enter>"
