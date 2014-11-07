@@ -5,7 +5,7 @@ To use my vim config run the following commands
 
 NOTE: You need [Exuberant cTags](http://ctags.sourceforge.net/) installed for full functionality.
 
-<pre>git clone https://github.com/kd8zev/dotfiles.git && cd ./dotfiles && git checkout -b origin/vim && git submodule init && git submodule update</pre>
+<pre>git clone https://github.com/kd8zev/dotfiles.git && cd ./dotfiles && git checkout -b origin/dev && git submodule init && git submodule update</pre>
 
 Then you just need to copy dotfiles/vim/vim to ~/.vim and dotfiles/vim/vimrc to ~/.vimrc
 
