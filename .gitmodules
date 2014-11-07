@@ -22,3 +22,6 @@
 [submodule "vim/vim/bundle/closetag.vim"]
 	path = vim/vim/bundle/closetag.vim
 	url = https://github.com/vim-scripts/closetag.vim.git
+[submodule "vim/vim/bundle/YouCompleteMe"]
+	path = vim/vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

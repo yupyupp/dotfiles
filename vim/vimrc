@@ -31,14 +31,23 @@ nmap `w :setlocal wrap!<CR>:setlocal wrap?<CR>
 
 
 "Paste
-set pastetoggle=
+"set pastetoggle=
 
 "Movement 
 nmap j gj
 nmap k gk
 
+"Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_aggregate_errors = 1
+nmap `l :lnext<CR>
+nmap `h :lprev<CR>
+nmap `k :lopen<CR>
+nmap `j :lclose<CR>
+nmap `p :SyntasticCheck<CR>
+
 "Figitive/Git
-nmap <C-g> :Gstatus<CR>
+nmap `g :Gstatus<CR>
 
 "PowerLine
 set nocompatible   " Disable vi-compatibility                               
@@ -55,6 +64,7 @@ let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " Linux/MacOSX
 
 "TagList
+let Tlist_Ctags_Cmd='~/.vim/bin/ctags'
 let Tlist_Auto_Open=1
 nmap <C-t> :TlistToggle<CR>
 let Tlist_Use_Right_Window=1
@@ -78,8 +88,8 @@ set hlsearch
 set t_Co=256
 set background=dark " dark | light "                       
 colorscheme solarized
-nmap `c :set background=dark<CR>
-nmap `C :set background=light<CR>
+nmap `Q :set background=dark<CR>
+nmap `q :set background=light<CR>
 
 "latex
 let g:tex_flavor = "latex"
