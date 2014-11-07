@@ -7,6 +7,7 @@ CTAGS_URL = "http://prdownloads.sourceforge.net/ctags/ctags-$CTAGS_VERSION.tar.g
 echo "Cloning submodules"
 git submodule update --init --recursive 
 
+cd ./vim
 echo "Backing up old vim congif"
 mv ~/.vimrc ~/.vimrc.bak
 mv ~/.vim ~/.vim.bak
