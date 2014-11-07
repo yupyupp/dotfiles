@@ -1,3 +1,7 @@
+" vimrc
+" Stephen Haffner
+" 2014-11-06
+
 "Pathogen
 execute pathogen#infect()
 "nmap \l :setlocal number!<CR>
