@@ -36,7 +36,6 @@ clone and run <pre>install.sh</pre>
 ### Buffer and Panel Navigation
  - C-l Buffer next
  - C-h Buffer previous
-
  - A-k Panel above
  - A-j Panel below
  - A-h Panel right
@@ -52,13 +51,11 @@ clone and run <pre>install.sh</pre>
  - `p  Syntastic check (p for "proof-read")
  - `l  Syntastic next error
  - `h  Syntastic previous error
- - `k  Syntastic open error pannel
- - `j  Syntastic close error pannel
-
+ - `k  Syntastic open error panel
+ - `j  Syntastic close error panel
  - `g  git status
  - C-p Open CtrlP fuzzy search
  - C-t Taglist Toggle
  - C-n NERDtree Toggle
-
  - `Q  Solarized dark
  - `q  Solarized light
