@@ -6,19 +6,19 @@
 ! xterm
 xterm*bellIsUrgent: true
 xterm*termName: xterm-256color
-xterm*font:                 xft:Anonymous Pro for Powerline:regular:size=10
-xterm*imFont:               xft:Anonymous Pro for Powerline:regular:size=10
-xterm*boldFont:             xft:Anonymous Pro for Powerline:bold:size=10
-xterm*italicFont:           xft:Anonymous Pro for Powerline:italic:size=10
-xterm*boldItalicFont:       xft:Anonymous Pro for Powerline:bold:italic:size=10
+xterm*font:                 xft:Anonymice Powerline:regular:size=10
+xterm*imFont:               xft:Anonymice Powerline:regular:size=10
+xterm*boldFont:             xft:Anonymice Powerline:bold:size=10
+xterm*italicFont:           xft:Anonymice Powerline:italic:size=10
+xterm*boldItalicFont:       xft:Anonymice Powerline:bold:italic:size=10
 
 
 ! Urxvt
-URxvt*font:                 xft:Anonymous Pro for Powerline:bold:size=10
-URxvt*imFont:               xft:Anonymous Pro for Powerline:regular:size=10
-URxvt*boldFont:             xft:Anonymous Pro for Powerline:bold:size=10
-URxvt*italicFont:           xft:Anonymous Pro for Powerline:italic:size=10
-URxvt*boldItalicFont:       xft:Anonymous Pro for Powerline:bold:italic:size=10
+URxvt*font:                 xft:Anonymice Powerline:bold:size=10
+URxvt*imFont:               xft:Anonymice Powerline:regular:size=10
+URxvt*boldFont:             xft:Anonymice Powerline:bold:size=10
+URxvt*italicFont:           xft:Anonymice Powerline:italic:size=10
+URxvt*boldItalicFont:       xft:Anonymice Powerline:bold:italic:size=10
 URxvt.loginShell: true
 URxvt.cursorUnderline: false
 URxvt.cursorBlink: false
