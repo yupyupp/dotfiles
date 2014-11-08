@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/sjhaffner/.config/awesome'
+let g:netrw_dirhist_2='/home/sjhaffner/Projects/gitolite-admin/keydir/sjhaffner/MinasMorgul'
+let g:netrw_dirhist_3='/etc/ddclient'
+let g:netrw_dirhist_4='/var/subsonic'
+let g:netrw_dirhist_5='/home/sjhaffner/Projects/dotfiles/mutt/mutt/sigs'
+let g:netrw_dirhist_6='/home/sjhaffner/Projects/gitolite-admin/conf'
+let g:netrw_dirhist_7='/home/sjhaffner/temp'
+let g:netrw_dirhist_8='/home/sjhaffner/.vim/bundle/powerline'
