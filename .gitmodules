@@ -31,3 +31,6 @@
 [submodule ".config/awesome"]
 	path = .config/awesome
 	url = https://github.com/kd8zev/powerarrow-zev.git
+[submodule "resources/powerline-fonts"]
+	path = resources/powerline-fonts
+	url = https://github.com/Lokaltog/powerline-fonts.git

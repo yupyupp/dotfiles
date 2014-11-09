@@ -6,17 +6,21 @@ This is my collection of homefolder config files. Feel free to use, modifify, an
 Included configs
 ----------------
 
-- :doc:`vim <doc/vim>`
+- `vim`_
 - zsh (Documentation in progress)
-- :doc:`Mutt mail client <doc/mutt>`
-- :doc:`Awesome WM <doc/awesome>`
+- `Mutt mail client`_
+- `Awesome WM`_
 - Urxvt & Xresources & Fonts (Documention in progress)
-- More in the future...
+
+.. _vim: ./doc/vim.rst
+.. _Mutt mail client: ./doc/mutt.rst
+.. _Awesome WM: ./doc/awesome.rst
 
 Planned configs
 ---------------
 - Autossh+tmux
 - mpd
+- More in the future...
 
 Install Notes
 -------------
