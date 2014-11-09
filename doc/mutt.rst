@@ -21,12 +21,12 @@ Directions
 
 - Copy the following files/folders into your home directory
 
-   - ``.config/pycard``
-   - ``.mutt``
-   - ``.muttrc``
-   - ``.mailcap``
-   - ``.msmtprc``
-   - ``.offlineimaprc``
+  - ``.config/pycard``
+  - ``.mutt``
+  - ``.muttrc``
+  - ``.mailcap``
+  - ``.msmtprc``
+  - ``.offlineimaprc``
 
 - Edit ``.offlineimaprc``
 
