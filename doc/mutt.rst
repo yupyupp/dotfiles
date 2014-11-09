@@ -21,12 +21,12 @@ Directions
 
 - Copy the following files/folders into your home directory
 
-    - ``.config/pycard``
-    - ``.mutt``
-    - ``.muttrc``
-    - ``.mailcap``
-    - ``.msmtprc``
-    - ``.offlineimaprc``
+   - ``.config/pycard``
+   - ``.mutt``
+   - ``.muttrc``
+   - ``.mailcap``
+   - ``.msmtprc``
+   - ``.offlineimaprc``
 
 - Edit ``.offlineimaprc``
 
@@ -68,7 +68,7 @@ Directions
 
 - Add a cron job to run offlineimap and pycardsyncer regularly
 
-	- (NOTE: Instead of syncing every account's whole mailbox every minute, you might want to just sync the INBOX forlders every minute with ``offlineimap -f INBOX`` and do a full sync once or twice a day)
+  - (NOTE: Instead of syncing every account's whole mailbox every minute, you might want to just sync the INBOX forlders every minute with ``offlineimap -f INBOX`` and do a full sync once or twice a day)
 
 TODO
 -----

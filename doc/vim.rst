@@ -4,20 +4,18 @@ VIM Config
 
 This is my vim config. Feel free to use and modify it to suit your needs. I highly suggest that you read through the vimrc to familiarize yourself with the various options that I have set. 
 
-<img src="https://kd8zev.net/static/vim_conf_screenshot.png" alt="Screenshot of vim config with a C++ source file" />
-
 Notes
 -----
-I use the `Solarized<http://ethanschoonover.com/solarized>`_ theme for my terminals. If you want it to work for your stuff you need to set up solarized colors on your terminal or it will look really bad. Also, you could just comment out any lines containing the word "solarized" in your vimrc.
+I use the `Solarized <http://ethanschoonover.com/solarized>`_ theme for my terminals. If you want it to work for your stuff you need to set up solarized colors on your terminal or it will look really bad. Also, you could just comment out any lines containing the word "solarized" in your vimrc.
 
-This config requires `Exuberant cTags<http://ctags.sourceforge.net/>`_ for the TagList plugin. The install script compiles it and copies the executable into ``~/.vim/bin``. If you already have Exuberant Ctags installed, delete the lines between the comments in ``install.sh`` before running it and then remove ``let Tlist_Ctags_Cmd='~/.vim/bin/ctags'`` from your vimrc.
+This config requires `Exuberant cTags <http://ctags.sourceforge.net/>`_ for the TagList plugin. The install script compiles it and copies the executable into ``~/.vim/bin``. If you already have Exuberant Ctags installed, delete the lines between the comments in ``install.sh`` before running it and then remove ``let Tlist_Ctags_Cmd='~/.vim/bin/ctags'`` from your vimrc.
 
 In order to use YouCompleteMe you will need the following:
 
 - Vim 7.3.584+
 - cmake
 - python-dev
-- `Check here for anything I missed<https://valloric.github.io/YouCompleteMe/>`_
+- `Check here for anything I missed <https://valloric.github.io/YouCompleteMe/>`_
 
 Installing
 ---------
@@ -29,14 +27,14 @@ Installing
 Included Plugins
 ----------------
 
-- `Pathogen<https://github.com/tpope/vim-pathogen>`_ - Plugin manager
-- `vim-powerline<https://github.com/Lokaltog/vim-powerline>`_ - Improved statusbar. vim-script version <Requires vim-fugitive)
-- `vim-colors-solarized<https://github.com/altercation/vim-colors-solarized>`_ - Solarized colorsheme for vim
-- `Syntastic<https://github.com/scrooloose/syntastic>`_ - Syntax checking
-- `ctrlp.vim<https://github.com/kien/ctrlp.vim>`_ - Fuzzy file, bugger, tag, etc. search
-- `vim-fugitive(https://github.com/tpope/vim-fugitive>`_ - git wrapper for vim <Required for powerline to show vim info)
-- `taglist.vim<https://github.com/vim-scripts/taglist.vim>`_ - Sourcecode browser. (Requires `Exuberant cTags<http://ctags.sourceforge.net/>`_)
-- `NERD Tree<https://github.com/scrooloose/nerdtree>`_ - File/project tree explorer
+- `Pathogen <https://github.com/tpope/vim-pathogen>`_ - Plugin manager
+- `vim-powerline <https://github.com/Lokaltog/vim-powerline>`_ - Improved statusbar. vim-script version <Requires vim-fugitive)
+- `vim-colors-solarized <https://github.com/altercation/vim-colors-solarized>`_ - Solarized colorsheme for vim
+- `Syntastic <https://github.com/scrooloose/syntastic>`_ - Syntax checking
+- `ctrlp.vim <https://github.com/kien/ctrlp.vim>`_ - Fuzzy file, bugger, tag, etc. search
+- `vim-fugitive <https://github.com/tpope/vim-fugitive>`_ - git wrapper for vim <Required for powerline to show vim info)
+- `taglist.vim <https://github.com/vim-scripts/taglist.vim>`_ - Sourcecode browser. (Requires `Exuberant cTags <http://ctags.sourceforge.net/>`_)
+- `NERD Tree <https://github.com/scrooloose/nerdtree>`_ - File/project tree explorer
 
 Custom Key Bindings
 -------------------
