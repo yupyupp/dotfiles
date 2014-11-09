@@ -51,5 +51,5 @@ TODO
 
 Screenshot
 -------------------------------
-.. image:: screenshot.png
+.. image:: ../screenshot.png
 
